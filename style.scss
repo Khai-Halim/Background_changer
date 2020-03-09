@@ -14,12 +14,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background: blue;
-    background: url(/img/pic_1.jpg);
-    background-position-y: center;
+    background: url(img/pic_1.jpg);
+    background-position: center;
     background-repeat: none;
     background-size: cover;
-    transition: all 1s ease-in-out;
+    //transition: all 0.7s ease-in-out;
 }
 
 #btn-change-background{

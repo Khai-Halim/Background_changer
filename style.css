@@ -16,13 +16,10 @@ body {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  background: blue;
-  background: url(/img/pic_1.jpg);
-  background-position-y: center;
+  background: url(img/pic_1.jpg);
+  background-position: center;
   background-repeat: none;
   background-size: cover;
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
 }
 
 #btn-change-background {
