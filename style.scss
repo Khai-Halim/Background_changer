@@ -1,0 +1,43 @@
+$blue-light:rgba(207, 239, 247, 0.199); 
+$clear: rgba(196, 228, 247, 0.24);
+$white: white;
+$blue-dark:rgb(7, 104, 150);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: blue;
+    background: url(/img/pic_1.jpg);
+    background-position-y: center;
+    background-repeat: none;
+    background-size: cover;
+    transition: all 1s ease-in-out;
+}
+
+#btn-change-background{
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    background: $clear;
+    color: $blue-dark;
+    padding: 0.5rem 2rem;
+    margin-bottom: 5rem;
+    box-shadow: -2px 2px 6px rgb(126, 124, 124);
+    //text-shadow: -1px 1px 4px rgb(126, 124, 124);
+    border: 2px solid $blue-dark;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        color: $white;
+        background: $blue-dark;
+    }
+}

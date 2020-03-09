@@ -13,22 +13,29 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   background: blue;
+  background: url(/img/pic_1.jpg);
+  background-position-y: center;
+  background-repeat: none;
+  background-size: cover;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 #btn-change-background {
   font-family: sans-serif;
   font-size: 1rem;
   font-weight: bold;
-  background: #cfeff7;
-  color: #06a7f1;
+  background: rgba(196, 228, 247, 0.24);
+  color: #076896;
   padding: 0.5rem 2rem;
-  -webkit-box-shadow: -2px 2px 6px #cac9c9;
-          box-shadow: -2px 2px 6px #cac9c9;
-  border: none;
+  margin-bottom: 5rem;
+  -webkit-box-shadow: -2px 2px 6px #7e7c7c;
+          box-shadow: -2px 2px 6px #7e7c7c;
+  border: 2px solid #076896;
   cursor: pointer;
   border-radius: 5px;
   -webkit-transition: all 0.3s ease-in-out;
@@ -36,7 +43,7 @@ body {
 }
 
 #btn-change-background:hover {
-  color: #cfeff7;
-  background: #06a7f1;
+  color: white;
+  background: #076896;
 }
 /*# sourceMappingURL=style.css.map */
